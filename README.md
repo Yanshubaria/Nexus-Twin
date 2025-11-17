@@ -18,3 +18,58 @@ View your app in AI Studio: https://ai.studio/apps/drive/1jPIYic7mw7uxAG5j9ZFpMJ
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+
+   # ❖ NEXUS DIGITAL TWIN
+
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![React](https://img.shields.io/badge/React-19.0-blue)
+![Gemini](https://img.shields.io/badge/AI-Google%20Gemini%202.5-orange)
+![Tailwind](https://img.shields.io/badge/Style-TailwindCSS-cyan)
+
+**Nexus Digital Twin** is a high-fidelity dashboard concept designed to visualize the "Digital Twin" of a high-performance laptop (The Nexus Model-X). 
+
+Developed by **Yanshu Baria**, this application demonstrates how AI and IoT data can converge to predict hardware failure, optimize performance, and visualize the impact of environmental factors on device longevity.
+
+## 🚀 Concept
+
+In Industry 4.0, a **Digital Twin** is a virtual replica of a physical product. This app simulates that connection:
+1.  **Physical Simulation:** The app generates realistic telemetry (CPU/GPU temps, voltage, fan curves) based on physics logic.
+2.  **Environmental Context:** Simulates external IoT sensor data (Humidity, Particulate Matter/Dust, Ambient Temp).
+3.  **AI Core:** Uses **Google Gemini 2.5 Flash** to analyze the correlation between the environment and the hardware stats to predict lifespan and suggest maintenance.
+
+## ✨ Key Features
+
+*   **🤖 AI-Powered Diagnostics:** Integrated with Google Gemini to act as the device's "Neural Core," providing real-time health assessments and predictive warnings.
+*   **📊 Dynamic Telemetry Engine:** Simulates realistic hardware behavior, including thermal throttling, fan curve hysteresis, and voltage droop under load.
+*   **🌍 Environmental Physics:** The "Environment Profile" system (e.g., Home Office vs. Industrial Floor) dynamically alters the simulation physics—high dust levels clog vents, and high humidity increases corrosion risks.
+*   **🎨 Sci-Fi UI/UX:** A "Cyberpunk/Futuristic" interface featuring:
+    *   Scanline animations and glitch effects.
+    *   Responsive Bento-grid dashboard layout.
+    *   Interactive 3D-style device wireframe visualization.
+*   **📈 Real-time Visualization:** Live Recharts implementation for tracking Thermal Dynamics and Power Load.
+
+## 🛠️ Tech Stack
+
+*   **Frontend:** React 19, TypeScript, Vite
+*   **Styling:** Tailwind CSS (Custom animations & layouts)
+*   **AI Integration:** Google GenAI SDK (`@google/genai`)
+*   **Visualization:** Recharts, Lucide React
+*   **Deployment:** Built for web compatibility
+
+## 📸 Screenshots
+
+*(Add screenshots of your Splash Screen, Dashboard, and Info Page here)*
+
+## 🧠 How It Works
+
+1.  **Initialization:** The app boots up with a simulated system check (Splash Screen).
+2.  **Monitoring:** The "Drivers" (internal logic) simulate hardware ticks every second, adjusting temperatures based on the selected Power Mode (Eco/Balanced/Turbo) and Environment.
+3.  **Analysis:** When the user requests a report, the app packages the current telemetry + environmental data and sends a prompt to Gemini.
+4.  **Insight:** Gemini analyzes the specific combination (e.g., "High Temp + High Dust") and returns a JSON structured prediction on component lifespan.
+
+## 👨‍💻 Developer
+
+**Yanshu Baria**  
+*Architecting the future of hardware interfaces.*
+
+---
