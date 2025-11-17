@@ -58,7 +58,13 @@ In Industry 4.0, a **Digital Twin** is a virtual replica of a physical product. 
 
 ## 📸 Screenshots
 
-*(Add screenshots of your Splash Screen, Dashboard, and Info Page here)*
+<img width="1279" height="633" alt="image" src="https://github.com/user-attachments/assets/75c76910-49d9-49b7-8165-95c9ef53ebdb" />
+
+<img width="1280" height="751" alt="image" src="https://github.com/user-attachments/assets/3a92d10e-72dc-4ca2-9e55-335dc85d38e8" />
+
+<img width="1280" height="752" alt="image" src="https://github.com/user-attachments/assets/0631f6b8-a497-4f03-ae46-17297db920df" />
+
+<img width="1272" height="749" alt="image" src="https://github.com/user-attachments/assets/22aa9274-f9f6-4915-b002-107c86082b86" />
 
 ## 🧠 How It Works
 
