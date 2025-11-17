@@ -1,0 +1,5 @@
+{
+  "name": "Copy of Nexus Digital Twin",
+  "description": "A high-fidelity digital twin simulator for monitoring device health, predicting failures, and analyzing telemetry using Gemini AI.",
+  "requestFramePermissions": []
+}
